@@ -8,4 +8,3 @@ class Camera:
     def readPodBarcode(self, podCode): #pod code is an integer ID
         print("Pod code scanned.")
 
-Camera.readFloorBarcode("Robot", 11659)

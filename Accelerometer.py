@@ -10,4 +10,3 @@ class Accelerometer:
         total2 = base - decrease #total2 was created to show the new robot speed after being increased by x units
         print(f"Speed decreased from {base} to {total2}!")
 
-Accelerometer.decreaseSpeed("speed", 5, 2)
