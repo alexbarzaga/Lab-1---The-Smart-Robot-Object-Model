@@ -9,7 +9,27 @@ class navigationSystem:
         print("Operater ran health scan.")
 
     def planRoute(self):
-        print("Route planned.")       
+        print("Route planned.")  
+
+    def publishRoute(self):
+        print("Route published to robot.")
+
+    def parkBot(self):
+        print("Robot parked.")
+
+    def routeStart(self):
+        print("Route started.")
+
+    def routeEnd(self):
+        print("Route ended.")
+
+    def findWorkerStation(self):
+        print("Arrived at worker station.")
+
+    def relevanceSort(self):
+        print("Shelf relocated.")   
+
+         
 
 
 
